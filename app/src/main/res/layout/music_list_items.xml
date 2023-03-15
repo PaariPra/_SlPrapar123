@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatCheckBox
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioMusicName"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/purple_200"
+    android:button="@null"
+    android:drawableStart="@drawable/icon_music"
+    android:drawableLeft="@drawable/icon_music"
+    android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+    android:drawablePadding="20dp"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:minHeight="?attr/listPreferredItemHeightSmall"
+    android:padding="10dp"
+    android:paddingLeft="@dimen/abc_select_dialog_padding_start_material"
+    android:paddingRight="?attr/dialogPreferredPadding"
+    android:text="Hello"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/white" />

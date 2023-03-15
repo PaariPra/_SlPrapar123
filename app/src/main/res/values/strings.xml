@@ -1,0 +1,675 @@
+<resources>
+    <string name="app_name">VideoEditor</string>
+
+    <string-array name="photo_editor_emoji">
+        <!-- Smiles -->
+        <item>u+1f604</item>
+        <item>u+1f603</item>
+        <item>u+1f600</item>
+        <item>u+1f60a</item>
+        <item>u+263a</item>
+        <item>u+1f609</item>
+        <item>u+1f60d</item>
+        <item>u+1f618</item>
+        <item>u+1f61a</item>
+        <item>u+1f617</item>
+        <item>u+1f619</item>
+        <item>u+1f61c</item>
+        <item>u+1f61d</item>
+        <item>u+1f61b</item>
+        <item>u+1f633</item>
+        <item>u+1f601</item>
+        <item>u+1f614</item>
+        <item>u+1f60c</item>
+        <item>u+1f612</item>
+        <item>u+1f61e</item>
+        <item>u+1f623</item>
+        <item>u+1f622</item>
+        <item>u+1f602</item>
+        <item>u+1f62d</item>
+        <item>u+1f62a</item>
+        <item>u+1f625</item>
+        <item>u+1f630</item>
+        <item>u+1f605</item>
+        <item>u+1f613</item>
+        <item>u+1f629</item>
+        <item>u+1f62b</item>
+        <item>u+1f628</item>
+        <item>u+1f631</item>
+        <item>u+1f620</item>
+        <item>u+1f621</item>
+        <item>u+1f624</item>
+
+        <!--People -->
+        <item>u+1f616</item>
+        <item>u+1f606</item>
+        <item>u+1f60b</item>
+        <item>u+1f637</item>
+        <item>u+1f60e</item>
+        <item>u+1f634</item>
+        <item>u+1f635</item>
+        <item>u+1f632</item>
+        <item>u+1f61f</item>
+        <item>u+1f626</item>
+        <item>u+1f627</item>
+        <item>u+1f608</item>
+        <item>u+1f47f</item>
+        <item>u+1f62e</item>
+        <item>u+1f62c</item>
+        <item>u+1f610</item>
+        <item>u+1f615</item>
+        <item>u+1f62f</item>
+        <item>u+1f636</item>
+        <item>u+1f607</item>
+        <item>u+1f60f</item>
+        <item>u+1f611</item>
+        <item>u+1f472</item>
+        <item>u+1f473</item>
+        <item>u+1f46e</item>
+        <item>u+1f477</item>
+        <item>u+1f482</item>
+        <item>u+1f476</item>
+        <item>u+1f466</item>
+        <item>u+1f467</item>
+        <item>u+1f468</item>
+        <item>u+1f469</item>
+        <item>u+1f474</item>
+        <item>u+1f475</item>
+        <item>u+1f471</item>
+        <item>u+1f47c</item>
+        <item>u+1f478</item>
+        <item>u+1f63a</item>
+        <item>u+1f638</item>
+        <item>u+1f63b</item>
+        <item>u+1f63d</item>
+        <item>u+1f63c</item>
+        <item>u+1f640</item>
+        <item>u+1f63f</item>
+        <item>u+1f639</item>
+        <item>u+1f63e</item>
+        <item>u+1f479</item>
+        <item>u+1f47a</item>
+        <item>u+1f648</item>
+        <item>u+1f649</item>
+        <item>u+1f64a</item>
+        <item>u+1f480</item>
+        <item>u+1f47d</item>
+        <item>u+1f4a9</item>
+        <item>u+1f525</item>
+        <item>u+2728</item>
+        <item>u+1f31f</item>
+        <item>u+1f4ab</item>
+        <item>u+1f4a5</item>
+        <item>u+1f4a2</item>
+        <item>u+1f4a6</item>
+        <item>u+1f4a7</item>
+        <item>u+1f4a4</item>
+        <item>u+1f4a8</item>
+        <item>u+1f442</item>
+        <item>u+1f440</item>
+        <item>u+1f443</item>
+        <item>u+1f445</item>
+        <item>u+1f444</item>
+        <item>u+1f44d</item>
+        <item>u+1f44e</item>
+        <item>u+1f44c</item>
+        <item>u+1f44a</item>
+        <item>u+270a</item>
+        <item>u+270c</item>
+        <item>u+1f44b</item>
+        <item>u+270b</item>
+        <item>u+1f450</item>
+        <item>u+1f446</item>
+        <item>u+1f447</item>
+        <item>u+1f449</item>
+        <item>u+1f448</item>
+        <item>u+1f64c</item>
+        <item>u+1f64f</item>
+        <item>u+261d</item>
+        <item>u+1f44f</item>
+        <item>u+1f4aa</item>
+        <item>u+1f6b6</item>
+        <item>u+1f3c3</item>
+        <item>u+1f483</item>
+        <item>u+1f46b</item>
+        <item>u+1f46a</item>
+        <item>u+1f46c</item>
+        <item>u+1f46d</item>
+        <item>u+1f48f</item>
+        <item>u+1f491</item>
+        <item>u+1f46f</item>
+        <item>u+1f646</item>
+        <item>u+1f645</item>
+        <item>u+1f481</item>
+        <item>u+1f64b</item>
+        <item>u+1f486</item>
+        <item>u+1f487</item>
+        <item>u+1f485</item>
+        <item>u+1f470</item>
+        <item>u+1f64e</item>
+        <item>u+1f64d</item>
+        <item>u+1f647</item>
+        <item>u+1f3a9</item>
+        <item>u+1f451</item>
+        <item>u+1f452</item>
+        <item>u+1f45f</item>
+        <item>u+1f45e</item>
+        <item>u+1f461</item>
+        <item>u+1f460</item>
+        <item>u+1f462</item>
+        <item>u+1f455</item>
+        <item>u+1f454</item>
+        <item>u+1f45a</item>
+        <item>u+1f457</item>
+        <item>u+1f3bd</item>
+        <item>u+1f456</item>
+        <item>u+1f458</item>
+        <item>u+1f459</item>
+        <item>u+1f4bc</item>
+        <item>u+1f45c</item>
+        <item>u+1f45d</item>
+        <item>u+1f45b</item>
+        <item>u+1f453</item>
+        <item>u+1f380</item>
+        <item>u+1f302</item>
+        <item>u+1f484</item>
+        <item>u+1f49b</item>
+        <item>u+1f499</item>
+        <item>u+1f49c</item>
+        <item>u+1f49a</item>
+        <item>u+2764</item>
+        <item>u+1f494</item>
+        <item>u+1f497</item>
+        <item>u+1f493</item>
+        <item>u+1f495</item>
+        <item>u+1f496</item>
+        <item>u+1f49e</item>
+        <item>u+1f498</item>
+        <item>u+1f48c</item>
+        <item>u+1f48b</item>
+        <item>u+1f48d</item>
+        <item>u+1f48e</item>
+        <item>u+1f464</item>
+        <item>u+1f465</item>
+        <item>u+1f4ac</item>
+        <item>u+1f463</item>
+        <item>u+1f4ad</item>
+
+        <!--  Nature-->
+        <item>u+1f436</item>
+        <item>u+1f43a</item>
+        <item>u+1f431</item>
+        <item>u+1f42d</item>
+        <item>u+1f439</item>
+        <item>u+1f430</item>
+        <item>u+1f438</item>
+        <item>u+1f42f</item>
+        <item>u+1f428</item>
+        <item>u+1f43b</item>
+        <item>u+1f437</item>
+        <item>u+1f43d</item>
+        <item>u+1f42e</item>
+        <item>u+1f417</item>
+        <item>u+1f435</item>
+        <item>u+1f412</item>
+        <item>u+1f434</item>
+        <item>u+1f411</item>
+        <item>u+1f418</item>
+        <item>u+1f43c</item>
+        <item>u+1f427</item>
+        <item>u+1f426</item>
+        <item>u+1f424</item>
+        <item>u+1f425</item>
+        <item>u+1f423</item>
+        <item>u+1f414</item>
+        <item>u+1f40d</item>
+        <item>u+1f422</item>
+        <item>u+1f41b</item>
+        <item>u+1f41d</item>
+        <item>u+1f41c</item>
+        <item>u+1f41e</item>
+        <item>u+1f40c</item>
+        <item>u+1f419</item>
+        <item>u+1f41a</item>
+        <item>u+1f420</item>
+        <item>u+1f41f</item>
+        <item>u+1f42c</item>
+        <item>u+1f433</item>
+        <item>u+1f40b</item>
+        <item>u+1f404</item>
+        <item>u+1f40f</item>
+        <item>u+1f400</item>
+        <item>u+1f403</item>
+        <item>u+1f405</item>
+        <item>u+1f407</item>
+        <item>u+1f409</item>
+        <item>u+1f40e</item>
+        <item>u+1f410</item>
+        <item>u+1f413</item>
+        <item>u+1f415</item>
+        <item>u+1f416</item>
+        <item>u+1f401</item>
+        <item>u+1f402</item>
+        <item>u+1f432</item>
+        <item>u+1f421</item>
+        <item>u+1f40a</item>
+        <item>u+1f42b</item>
+        <item>u+1f42a</item>
+        <item>u+1f406</item>
+        <item>u+1f408</item>
+        <item>u+1f429</item>
+        <item>u+1f43e</item>
+        <item>u+1f490</item>
+        <item>u+1f338</item>
+        <item>u+1f337</item>
+        <item>u+1f340</item>
+        <item>u+1f339</item>
+        <item>u+1f33b</item>
+        <item>u+1f33a</item>
+        <item>u+1f341</item>
+        <item>u+1f343</item>
+        <item>u+1f342</item>
+        <item>u+1f33f</item>
+        <item>u+1f33e</item>
+        <item>u+1f344</item>
+        <item>u+1f335</item>
+        <item>u+1f334</item>
+        <item>u+1f332</item>
+        <item>u+1f333</item>
+        <item>u+1f330</item>
+        <item>u+1f331</item>
+        <item>u+1f33c</item>
+        <item>u+1f310</item>
+        <item>u+1f31e</item>
+        <item>u+1f31d</item>
+        <item>u+1f31a</item>
+        <item>u+1f311</item>
+        <item>u+1f312</item>
+        <item>u+1f313</item>
+        <item>u+1f314</item>
+        <item>u+1f315</item>
+        <item>u+1f316</item>
+        <item>u+1f317</item>
+        <item>u+1f318</item>
+        <item>u+1f31c</item>
+        <item>u+1f31b</item>
+        <item>u+1f319</item>
+        <item>u+1f30d</item>
+        <item>u+1f30e</item>
+        <item>u+1f30f</item>
+        <item>u+1f30b</item>
+        <item>u+1f30c</item>
+        <item>u+1f320</item>
+        <item>u+2b50</item>
+        <item>u+2600</item>
+        <item>u+26c5</item>
+        <item>u+2601</item>
+        <item>u+26a1</item>
+        <item>u+2614</item>
+        <item>u+2744</item>
+        <item>u+26c4</item>
+        <item>u+1f300</item>
+        <item>u+1f301</item>
+        <item>u+1f308</item>
+        <item>u+1f30a</item>
+
+        <!--Places-->
+        <item>u+1f3e0</item>
+        <item>u+1f3e1</item>
+        <item>u+1f3eb</item>
+        <item>u+1f3e2</item>
+        <item>u+1f3e3</item>
+        <item>u+1f3e5</item>
+        <item>u+1f3e6</item>
+        <item>u+1f3ea</item>
+        <item>u+1f3e9</item>
+        <item>u+1f3e8</item>
+        <item>u+1f492</item>
+        <item>u+26ea</item>
+        <item>u+1f3ec</item>
+        <item>u+1f3e4</item>
+        <item>u+1f307</item>
+        <item>u+1f306</item>
+        <item>u+1f3ef</item>
+        <item>u+1f3f0</item>
+        <item>u+26fa</item>
+        <item>u+1f3ed</item>
+        <item>u+1f5fc</item>
+        <item>u+1f5fe</item>
+        <item>u+1f5fb</item>
+        <item>u+1f304</item>
+        <item>u+1f305</item>
+        <item>u+1f303</item>
+        <item>u+1f5fd</item>
+        <item>u+1f309</item>
+        <item>u+1f3a0</item>
+        <item>u+1f3a1</item>
+        <item>u+26f2</item>
+        <item>u+1f3a2</item>
+        <item>u+1f6a2</item>
+        <item>u+26f5</item>
+        <item>u+1f6a4</item>
+        <item>u+1f6a3</item>
+        <item>u+2693</item>
+        <item>u+1f680</item>
+        <item>u+2708</item>
+        <item>u+1f4ba</item>
+        <item>u+1f681</item>
+        <item>u+1f682</item>
+        <item>u+1f68a</item>
+        <item>u+1f689</item>
+        <item>u+1f69e</item>
+        <item>u+1f686</item>
+        <item>u+1f684</item>
+        <item>u+1f685</item>
+        <item>u+1f688</item>
+        <item>u+1f687</item>
+        <item>u+1f69d</item>
+        <item>u+1f68b</item>
+        <item>u+1f683</item>
+        <item>u+1f68e</item>
+        <item>u+1f68c</item>
+        <item>u+1f68d</item>
+        <item>u+1f699</item>
+        <item>u+1f698</item>
+        <item>u+1f697</item>
+        <item>u+1f695</item>
+        <item>u+1f696</item>
+        <item>u+1f69b</item>
+        <item>u+1f69a</item>
+        <item>u+1f6a8</item>
+        <item>u+1f693</item>
+        <item>u+1f694</item>
+        <item>u+1f692</item>
+        <item>u+1f691</item>
+        <item>u+1f690</item>
+        <item>u+1f6b2</item>
+        <item>u+1f6a1</item>
+        <item>u+1f69f</item>
+        <item>u+1f6a0</item>
+        <item>u+1f69c</item>
+        <item>u+1f488</item>
+        <item>u+1f68f</item>
+        <item>u+1f3ab</item>
+        <item>u+1f6a6</item>
+        <item>u+1f6a5</item>
+        <item>u+26a0</item>
+        <item>u+1f6a7</item>
+        <item>u+1f530</item>
+        <item>u+26fd</item>
+        <item>u+1f3ee</item>
+        <item>u+1f3b0</item>
+        <item>u+2668</item>
+        <item>u+1f5ff</item>
+        <item>u+1f3aa</item>
+        <item>u+1f3ad</item>
+        <item>u+1f4cd</item>
+        <item>u+1f6a9</item>
+    </string-array>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="no_url">No Play Url</string>
+    <string name="tips_not_net">There are currently no available network, check the network retry</string>
+    <string name="tips_not_network_ok">OK</string>
+    <string name="tips_not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel">Stop play</string>
+    <string name="tips_not_wifi_confirm">Resume</string>
+    <string name="LOCATION">LOCATION</string>
+
+    <string name="about_text">Use Ringdroid to edit MP3, WAV, AAC, and AMR audio files and create ringtones, alarms, and notifications from them. Tip: copy audio files to your SD card using a USB cable, or get MP3s using the Amazon MP3 application. Tip: long-press on an audio file from the main screen to delete it. More below... Tip: tap anywhere on the waveform to start playing at that position. Tip: while playing, tap the word Start or End to quickly set the start and end markers to the current playback time. Tip: Use the jog wheel for more precise adjustments. Version 2.3 Developer: Dominic Mazzoni Graphics: Joseph Wain Support and evangelizing: Eugene Koh Enhancements: Dan Klufas Ringdroid is free software, distributed under the Apache 2.0 license. Source code is on code.google.com </string>
+    <string name="about_title">About Audiocutter</string>
+    <string name="accept">Accept</string>
+    <string name="action_select">Select</string>
+    <string name="add_duration_button">Add Duration button</string>
+    <string name="add_more_images">Add More Images</string>
+    <string name="add_music">Add Music</string>
+    <string name="add_music_button">Add Music button</string>
+    <string name="add_text">Add Text</string>
+    <string name="add_text_first_to_continue">Add text first to continue</string>
+    <string name="add_text_sticker">Add Text Sticker</string>
+    <string name="add_your_text_here">Add your text here..</string>
+    <string name="admob_banner_id">ca-app-pub-8935511469294515/1745215412</string>
+    <string name="admob_inter">ca-app-pub-8935511469294515/8474275291</string>
+    <string name="alert">ALERT</string>
+    <string name="alert_ok_button">OK</string>
+    <string name="alert_title_failure">Error</string>
+    <string name="alert_title_success">Success</string>
+
+
+    <string name="app_folder_name">Pic2Video</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="applicatoin_not_found">Applicatoin not found</string>
+    <string name="are_you_sure_to_delete_">Are you sure to delete </string>
+    <string name="artist_name">Movie maker</string>
+    <string name="at_least_3_images_require_if_you_want_to_remove_this_images_than_add_more_images_">At least 3 images require if you want to remove this images than add more images.</string>
+    <string name="bad_extension_error">Sorry, Audiocutter is not yet able to edit files of type</string>
+    <string name="blur">Blur</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cancel">Cancel</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="clear">Clear</string>
+    <string name="clip_details">Cut Video</string>
+    <string name="clip_failure">Oops! Failed to Clip this Mp4 File. You may have selected a bad MP4 file.</string>
+    <string name="clip_video">Cut Video</string>
+    <string name="color">Color</string>
+    <string name="com_crashlytics_android_build_id">002c05c8-fc6a-4baa-88b2-4cfa8dc2b65f</string>
+    <string name="compressed_done">compressed_done！</string>
+    <string name="compressing">Compressing...</string>
+    <string name="create_amazing_video_">Create amazing video!..</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="create_folder_error">Failed to create folder</string>
+    <string name="create_good_slieshow_">Create good slieshow.</string>
+    <string name="create_new">Create video</string>
+    <string name="creating_video">Creating Video</string>
+    <string name="cut">Cut Video</string>
+    <string name="cut_video">Cut Video</string>
+    <string name="decline">Decline</string>
+    <string name="default_time_text">00:00</string>
+    <string name="delete">Delete</string>
+    <string name="delete_tmp_error">Error deleting temporary file</string>
+    <string name="delete_video_">Delete Video !</string>
+    <string name="done">Done</string>
+    <string name="duration">00:00</string>
+    <string name="end">End</string>
+    <string name="end_label">End:</string>
+    <string name="end_marker">End marker</string>
+    <string name="end_time">End Time</string>
+    <string name="enter_caption">Enter Caption</string>
+    <string name="enter_video_name">Enter Video Name</string>
+    <string name="error_no_permissions">The app requires `WRITE_EXTERNAL_STORAGE` permission.</string>
+    <string name="feather_promo_title2">a</string>
+    <string name="fen__app_name">Fenster</string>
+    <string name="fen__play_error_message">Impossible to play the video.</string>
+    <string name="fen__play_progressive_error_message">Impossible to play the progressive video.</string>
+    <string name="ffwd">Fast forward</string>
+    <string name="flash">Flash</string>
+    <string name="follow_bellow_step_for_app_lock">Follow bellow step for permission</string>
+    <string name="font_style">Font Style</string>
+    <string name="frame_image">Frame Image</string>
+    <string name="from_storage">From Storage</string>
+    <string name="general">GENERAL</string>
+    <string name="go_back">Go back</string>
+    <string name="got_it">Got It</string>
+    <string name="got_it_">Got It!</string>
+    <string name="ijkplayer_dummy" />
+    <string name="image">image(s)</string>
+    <string name="image_locationpath">/storage/emulated/0/Pic2Video/EditImage</string>
+    <string name="inner_blur">Inner blur</string>
+    <string name="input_name">Input name</string>
+    <string name="inter_ad">ca-app-pub-6000350247383189/4060543096</string>
+    <string name="join">Join Video</string>
+    <string name="kilobyte">KB</string>
+    <string name="label_adjust">Adjust</string>
+    <string name="label_brush">Brush</string>
+    <string name="label_emoji">Emoji</string>
+    <string name="label_eraser">Eraser</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_select_video">Select Video</string>
+    <string name="label_sticker">Sticker</string>
+    <string name="label_text">Text</string>
+    <string name="making_in_progress">Making in progress</string>
+    <string name="megabyte">MB</string>
+    <string name="merge_failure">Oops! Failed to Merge selected Mp4 files. You may have selected MP4 files with dissimilar codecs.</string>
+    <string name="merge_success">Video Successfully merged.</string>
+    <string name="merge_video">Merge Video</string>
+    <string name="message_create_photo_for_video">Create photo for video</string>
+    <string name="message_create_video">Create Video</string>
+    <string name="message_no_video_my_video">No Video</string>
+    <string name="message_not_connect_network">Please check internet connection and try again</string>
+    <string name="message_save_video">Do you want to save Video?</string>
+    <string name="message_warning_change_duration">Change duration will lost Audio added!</string>
+    <string name="movie_album">Movie Album</string>
+    <string name="msg">MAKES YOUR MOVEMENTS MORE BEAUTIFUL</string>
+    <string name="music_video">Music Video</string>
+    <string name="mx_img_content_dec">mx_img_content_dec</string>
+    <string name="my_video">My Creation</string>
+    <string name="name">Name</string>
+    <string name="native_ad" />
+    <string name="native_banner_fb_ad1" />
+    <string name="native_banner_fb_ad2" />
+    <string name="native_banner_fb_ad3" />
+    <string name="native_fb_ad" />
+    <string name="native_fb_ad2" />
+    <string name="new_folder">New folder</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="no_blur">No blur</string>
+    <string name="no_extension_error">Sorry, audiocutter can\'t edit a file if it doesn\'t have an extension like .mp3 or .wav</string>
+    <string name="no_space_error">Your SD card is full, there is not enough space to save this file.</string>
+    <string name="no_unique_filename">Unable to find unique filename</string>
+    <string name="normal_blur">Normal blur</string>
+    <string name="notification_type">NOTIFICATION TYPE</string>
+    <string name="notnow">Not now!</string>
+    <string name="nullimg">You must at least choose one image!</string>
+    <string name="ok">Ok</string>
+    <string name="outer">Outer</string>
+    <string name="outer_blur">Outer blur</string>
+
+    <string name="pattern">Pattern</string>
+    <string name="permission_check_message">Video Maker is about to ask you for authorization on some permissions. The permissions that are requested are NOT used by Video Maker itself, they are added so that developers that expand on Video Maker\'s functionality. Feel free to decline any of these permissions. You can manually access these from your system\'s app settings.</string>
+    <string name="permission_check_title">Video Maker\'s Permissions:</string>
+    <string name="pick_album">Pick album</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="play">Play</string>
+    <string name="play_error">Unable to play this media file</string>
+    <string name="play_pause_image">Play Pause Image</string>
+    <string name="please_add_text_first">Please add text first</string>
+    <string name="please_enter_story_name_">Please Enter Story Name.</string>
+    <string name="please_find_and_enable_chang_pu_launcher_for_proper_working_of_applock_">Please Enable Movie Maker App From Auto-Start Manager To Receive Notification.</string>
+    <string name="please_wait_">Please Wait...</string>
+    <string name="preview">Preview</string>
+    <string name="pro">Processing...</string>
+    <string name="progress_dialog_loading">Loading...</string>
+    <string name="progress_dialog_saving">Saving...</string>
+    <string name="rate">Please rate 5 stars for us!</string>
+    <string name="ratenow">Rate now!</string>
+    <string name="read_error">Error reading file</string>
+    <string name="record_error">Error recording audio</string>
+    <string name="rewind">Rewind</string>
+    <string name="ring">Ringtone</string>
+    <string name="save">Save</string>
+    <string name="save_prompt">An mp4 file with a similar name already exists, do you want to replace it?</string>
+    <string name="save_video">Save Video</string>
+    <string name="select_more_than_2_images_for_create_video">Select more than 2 Images for create video</string>
+    <string name="select_something_first">Please select something first</string>
+    <string name="select_video">Select Video</string>
+    <string name="selected">Selected</string>
+    <string name="selected_0_image_s">Selected 0 image(s)</string>
+    <string name="set_show_daily_alert_on_to_receive_daily_notification">Set Show Daily Alert On To Receive Daily Notification</string>
+    <string name="setting">Setting</string>
+    <string name="settings">Settings</string>
+    <string name="shadow_image">shadow_image</string>
+    <string name="share_native">Share</string>
+    <string name="short_seconds">sec</string>
+    <string name="show_daily_alert">Show Daily Alert</string>
+    <string name="size">Size</string>
+    <string name="slide_show">Slide Show</string>
+    <string name="slide_show_maker">Slide Show Maker</string>
+    <string name="slide_video">Slide Video</string>
+    <string name="solid_blur">Solid blur</string>
+    <string name="start">Start</string>
+    <string name="start_label">Start:</string>
+    <string name="start_marker">Start marker</string>
+    <string name="start_time">Start Time</string>
+    <string name="stop">Stop</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+    <string name="str1">0.5</string>
+    <string name="str10">5</string>
+    <string name="str11">5.5</string>
+    <string name="str12">6</string>
+    <string name="str13">6.5</string>
+    <string name="str14">7</string>
+    <string name="str2">1</string>
+    <string name="str3">1.5</string>
+    <string name="str4">2</string>
+    <string name="str5">2.5</string>
+    <string name="str6">3</string>
+    <string name="str7">3.5</string>
+    <string name="str8">4</string>
+    <string name="str9">4.5</string>
+    <string name="style">Style</string>
+    <string name="swap_and_edit">Swap and Edit</string>
+    <string name="swap_image_button">Swap Image button</string>
+    <string name="text_add_audio">Add Audio</string>
+    <string name="text_anim">3D Effect</string>
+    <string name="text_apply">Ok</string>
+    <string name="text_button_no">no</string>
+    <string name="text_button_yes">yes</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_continue">Continue</string>
+    <string name="text_file_path">Video Save Path :</string>
+    <string name="text_share_via">Share via</string>
+    <string name="time_seconds">seconds</string>
+    <string name="title_activity_video__view_">Video_View_Activity</string>
+    <string name="title_dialog_duration">Interval between photos</string>
+    <string name="title_dialog_save_video">Save Video</string>
+    <string name="title_reset_media">Reset Media</string>
+    <string name="toast_cannot_retrieve_selected_video">Cannot retrieve selected video</string>
+    <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
+    <string name="trim_success">Video Successfully Clipped.</string>
+    <string name="trimmed_done">Trimmed Done！</string>
+    <string name="trimming">Trimming...</string>
+    <string name="trimming_progress">Trimming your video...</string>
+    <string name="upload_to_youtube">Share to YouTube</string>
+    <string name="usage_tips">Usage Tips</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="video_created">Video Created</string>
+    <string name="video_cutlocationpath">/storage/emulated/0/Pic2Video/CutVideo</string>
+    <string name="video_joinlocationpath">/storage/emulated/0/Pic2Video/JoinVideo</string>
+    <string name="video_makelocationpath">/storage/emulated/0/Pic2Video/MakeVideo</string>
+    <string name="video_maker">Video Maker</string>
+    <string name="video_name_already_exist_">Video Name Already Exist.</string>
+    <string name="video_position_key">video_position</string>
+    <string name="video_saved_at">Video saves at : $%1s</string>
+    <string name="video_shoot_tip">Video Shoot Tip！</string>
+    <string name="video_title">Add Slideshow Title</string>
+    <string name="video_url_Key">video_url</string>
+    <string name="write_error">Error writing file</string>
+    <string name="yes">Yes</string>
+
+    <array name="video_height_width">
+        <item>1280*720</item>
+        <item>720*480</item>
+        <item>640*360</item>
+        <item>320*240</item>
+    </array>
+
+
+    <array name="video_resolution">
+        <item>720p HD</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+    </array>
+
+</resources>

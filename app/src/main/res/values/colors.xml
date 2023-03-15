@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#51087e</color>
+    <color name="purple_500">#51087e</color>
+    <color name="purple_700">#51087e</color>
+    <color name="app_colr">#51087e</color>
+
+
+
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="orange">#ffff9933</color>
+    <color name="blue">#ff0089cc</color>
+    <color name="grey">#ff555555</color>
+    <color name="grey_fa">#fffafafa</color>
+    <color name="action_select">#6d6d6d</color>
+    <color name="grid_line">#66ffffff</color>
+    <color name="header_bg">#ff954aaa</color>
+    <color name="red_material">#ffe94259</color>
+    <color name="piclist_bg_title">#ff262626</color>
+    <color name="m_very_transparent_black">#33000000</color>
+    <color name="blackTransparent">#cc000000</color>
+    <color name="waveform_selected">#ff33b5e5</color>
+    <color name="waveform_unselected">#ff195a72</color>
+    <color name="blue_color_picker">#0066ff</color>
+    <color name="blue_new">#ff061291</color>
+    <color name="violet_color_picker">#8359a3</color>
+    <color name="red_color_picker">#ed0a3f</color>
+    <color name="orange_color_picker">#ff861f</color>
+    <color name="brown_color_picker">#af593e</color>
+    <color name="green_color_picker">#01a368</color>
+    <color name="red_orange_color_picker">#ff3f34</color>
+    <color name="border_gray">#ffe8e8e8</color>
+    <color name="background_progress_color">#6c6d6d</color>
+    <color name="background_video_color">#2f3031</color>
+    <color name="black_trans">#b3000000</color>
+    <color name="black_translucent">#50000000</color>
+    <color name="light_blue">#ffdde5e3</color>
+    <color name="holo_purple_light">#ffaa66cc</color>
+    <color name="gray">#ff848383</color>
+    <color name="light_blue_font">#ff0089cc</color>
+    <color name="light_gray">#ffd7d7d7</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="lighter_blue">#ff1eb1f3</color>
+    <color name="playback_indicator">#ffffff66</color>
+    <color name="timecode">#ddffffdd</color>
+    <color name="timecode_shadow">#aa000000</color>
+    <color name="waveform_unselected_bkgnd_overlay">#ff0a242d</color>
+    <color name="lighter_grey">#ff666666</color>
+    <color name="lightpink">#ffe75480</color>
+    <color name="lightpurple">#ffd19fe8</color>
+    <color name="line_button">#565758</color>
+    <color name="line_color">#ff15ff00</color>
+    <color name="tool_bg" tools:ignore="MissingDefaultResource">#151414</color>
+    <color name="process_color">#ffd3d3d3</color>
+    <color name="progress_color">@color/purple_200</color>
+    <color name="m_gray_neutral">#ffc0c4cd</color>
+    <color name="m_gray_very_light">#ffe5e5e5</color>
+    <color name="m_green">#ff24f681</color>
+    <color name="m_green_accent">#ff63b32c</color>
+    <color name="selection_border">#ffffffff</color>
+    <color name="sentimental">#ff11a6b8</color>
+    <color name="setting_text_color">#ff000000</color>
+    <color name="settingiconcolor">#ffdb4503</color>
+    <color name="shadow_color">#ff000000</color>
+    <color name="shadow_gray">#ff555555</color>
+    <color name="sky_blue_color_picker">#76d7ea</color>
+    <color name="solid_color">#44000000</color>
+    <color name="solid_grey">#ffcccccc</color>
+    <color name="stroke_color">#ff44506c</color>
+    <color name="suspenseful">#ff561972</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_dark">#ffebebeb</color>
+    <color name="white_transparent">#44ffffff</color>
+    <color name="wild_sand">#fff4f4f4</color>
+    <color name="yellow_color_picker">#fbe870</color>
+    <color name="yellow_green_color_picker">#c5e17a</color>
+
+
+</resources>

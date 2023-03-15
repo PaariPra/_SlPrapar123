@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/action_container"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_go_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selectable_action"
+            android:clickable="true"
+            android:contentDescription="@string/go_back"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_navigation_back" />
+
+        <ImageButton
+            android:id="@+id/button_create_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selectable_action"
+            android:clickable="true"
+            android:contentDescription="@string/new_folder"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_collections_add_collection" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/current_dir"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/action_container"
+        android:background="@color/grey"
+        android:ellipsize="start"
+        android:fontFamily="light"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:scrollHorizontally="false"
+        android:singleLine="true"
+        android:textColor="?android:attr/textColorPrimary" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_container"
+        android:layout_below="@+id/current_dir" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/dividerHorizontal" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="light"
+                android:text="@android:string/cancel" />
+
+            <Button
+                android:id="@+id/button_ok"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="light"
+                android:text="@android:string/ok" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

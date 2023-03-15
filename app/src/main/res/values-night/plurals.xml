@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="select_dir">
+        <item quantity="other">Select directories</item>
+        <item quantity="one">Select directory</item>
+    </plurals>
+    <plurals name="select_dir_or_file">
+        <item quantity="other">Select directories or files</item>
+        <item quantity="one">Select directory or file</item>
+    </plurals>
+    <plurals name="select_file">
+        <item quantity="other">Select files</item>
+        <item quantity="one">Select file</item>
+    </plurals>
+</resources>
