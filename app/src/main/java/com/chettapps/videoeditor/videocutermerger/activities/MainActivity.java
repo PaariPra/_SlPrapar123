@@ -60,14 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        ImageView banner = (ImageView) findViewById(R.id.banner);
-        banner.setOnClickListener(new View.OnClickListener() {
-            @Override // android.view.View.OnClickListener
-            public void onClick(View view) {
-                Intent rateIntent = new Intent("android.intent.action.VIEW", Uri.parse("market://details?id=com.lyricalvideomaker.moviemakereditor"));
-                MainActivity.this.startActivity(rateIntent);
-            }
-        });
     }
 
     public void init() {
