@@ -452,7 +452,7 @@
     <string name="at_least_3_images_require_if_you_want_to_remove_this_images_than_add_more_images_">At least 3 images require if you want to remove this images than add more images.</string>
     <string name="bad_extension_error">Sorry, Audiocutter is not yet able to edit files of type</string>
     <string name="blur">Blur</string>
-    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="cancel">Cancel</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="clear">Clear</string>

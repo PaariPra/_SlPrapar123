@@ -1,5 +1,6 @@
 package com.chettapps.videoeditor.videocutermerger.adapters;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -68,7 +69,7 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position)
+    public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") int position)
     {
          ModelVideo myListData = listdata.get(position);
         getRealPathFromURI(activity, myListData.getData());
@@ -133,6 +134,21 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
             {
 
 
+                if(activity.getIntent().getStringExtra("type").equals("edit"))
+                {
+
+                    ModelVideo myListData = listdata.get(position);
+
+
+                    clickinterface.onclick(FileUtils2.getPath(activity,myListData.getData()));
+
+
+
+                }
+                else {
+
+
+
                 if(type==0)
                 {
 
@@ -146,26 +162,19 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
                 }
 
 
-                else
-                {
+                else {
 
 
-
-                    if(allselcdetfsta.contains(myListData))
-                    {
+                    if (allselcdetfsta.contains(myListData)) {
                         allselcdetfsta.remove(myListData);
                         holder.iv_chck.setImageResource(R.drawable.ic_baseline_check_circle_outline_24);
-                    }
-
-
-                    else
-                    {
+                    } else {
                         allselcdetfsta.add(myListData);
                         holder.iv_chck.setImageResource(R.drawable.ic_baseline_check_circle_24);
                     }
                     clickinterface.onclick2(allselcdetfsta);
 
-
+                }
 
 
 

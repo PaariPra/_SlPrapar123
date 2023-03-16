@@ -76,13 +76,37 @@ public class GetAllVIdeoActivty extends AppCompatActivity {
         myListAdapter= new MyListAdapter(videosList, GetAllVIdeoActivty.this, new clickinterface() {
             @Override
             public void onclick(String data) {
-                TrimVideo.activity( data)
-                        .setCompressOption(new CompressOption())
-                        .start(GetAllVIdeoActivty.this, videoTrimResultLauncher);
+                if(getIntent().getStringExtra("type").equals("cut"))
+                {
+
+                    TrimVideo.activity(data)
+                            .setCompressOption(new CompressOption())
+                            .start(GetAllVIdeoActivty.this, videoTrimResultLauncher);
+
+                }
+                else {
+
+
+                    Intent i = new Intent(GetAllVIdeoActivty.this, PreviewVideoActivity.class);
+                    i.putExtra("DATA",data);
+                    //binding.ivProfilePic.setImageURI(Uri.fromFile(selectedImageFile));
+                    startActivity(i);
+
+
+
+
+
+                }
             }
 
             @Override
-            public void onclick2(ArrayList<ModelVideo> data) {
+            public void onclick2(ArrayList<ModelVideo> data)
+
+            {
+
+
+
+
 
             }
         },0);

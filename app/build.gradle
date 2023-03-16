@@ -40,6 +40,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    dataBinding {
+        enabled = true
+    }
+
 }
 
 dependencies {
@@ -88,5 +92,6 @@ dependencies {
     implementation 'com.arthenica:mobile-ffmpeg-full:4.4.LTS'
 
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
 
 }

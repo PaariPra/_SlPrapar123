@@ -211,6 +211,31 @@
                                 android:textColor="#fff"
                                 android:textSize="20sp" />
                         </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/bt_edivi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_edoit"
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                android:src="@drawable/setting_btn" />
+
+                            <TextView
+                                android:id="@+id/tv_edff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="EdiV"
+                                android:textColor="#fff"
+                                android:textSize="20sp" />
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
             </RelativeLayout>

@@ -74,6 +74,11 @@
             android:screenOrientation="portrait" />
 
 
+        <activity
+            android:name=".videocutermerger.activities.PreviewVideoActivity"
+            android:screenOrientation="portrait" />
+
+
 
         <activity
             android:name=".videocutermerger.activities.SlideShow_Video_Activity"

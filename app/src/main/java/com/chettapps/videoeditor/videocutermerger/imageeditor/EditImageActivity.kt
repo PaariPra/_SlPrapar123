@@ -2,12 +2,9 @@ package com.chettapps.videoeditor.videocutermerger.imageeditor
 
 
 import com.chettapps.videoeditor.videocutermerger.imageeditor.base.BaseActivity
-import ja.burhanrashid52.photoeditor.OnPhotoEditorListener
 import com.chettapps.videoeditor.videocutermerger.imageeditor.EmojiBSFragment.EmojiListener
 import com.chettapps.videoeditor.videocutermerger.imageeditor.StickerBSFragment.StickerListener
 import com.chettapps.videoeditor.videocutermerger.imageeditor.tools.EditingToolsAdapter.OnItemSelected
-import ja.burhanrashid52.photoeditor.PhotoEditor
-import ja.burhanrashid52.photoeditor.PhotoEditorView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import android.widget.TextView
@@ -21,10 +18,8 @@ import android.content.Intent
 import com.chettapps.videoeditor.videocutermerger.activities.Swap_Edit_Activity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.chettapps.videoeditor.videocutermerger.imageeditor.TextEditorDialogFragment.TextEditor
-import ja.burhanrashid52.photoeditor.ViewType
 import android.annotation.SuppressLint
 import android.app.AlertDialog
-import ja.burhanrashid52.photoeditor.SaveSettings
 import ja.burhanrashid52.photoeditor.PhotoEditor.OnSaveListener
 import android.graphics.Bitmap
 import android.content.DialogInterface
@@ -34,12 +29,12 @@ import android.transition.TransitionManager
 import android.util.Log
 import android.view.MotionEvent
 import android.view.View
-import ja.burhanrashid52.photoeditor.PhotoFilter
 import com.chettapps.videoeditor.videocutermerger.imageeditor.tools.ToolType
 import android.view.animation.AnticipateOvershootInterpolator
 import android.widget.ImageView
 import com.chettapps.videoeditor.videocutermerger.imageeditor.filters.FilterListener
 import com.chettapps.videoeditor.videocutermerger.utils.FileUtils
+import ja.burhanrashid52.photoeditor.*
 
 import java.io.File
 import java.io.IOException

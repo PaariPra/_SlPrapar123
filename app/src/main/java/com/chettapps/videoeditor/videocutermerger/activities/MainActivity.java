@@ -39,11 +39,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private LinearLayout btSetting;
     private LinearLayout bt_cut;
     private LinearLayout bt_join;
+    private LinearLayout bt_edivi;
     Dialog dialogFirst;
     final int mediaSize = 550;
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.SupportActivity, android.app.Activity
+    @Override
+    // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.SupportActivity, android.app.Activity
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(1);
@@ -54,10 +56,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.btSetting = (LinearLayout) findViewById(R.id.bt_setting);
         this.bt_cut = (LinearLayout) findViewById(R.id.bt_cut);
         this.bt_join = (LinearLayout) findViewById(R.id.bt_join);
+        this.bt_edivi = (LinearLayout) findViewById(R.id.bt_edivi);
         turnPermiss();
-
-
-
 
 
     }
@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.btCreateVideo.setOnClickListener(this);
         this.bt_cut.setOnClickListener(this);
         this.bt_join.setOnClickListener(this);
+        this.bt_edivi.setOnClickListener(this);
         this.btMyVideo.setOnClickListener(new View.OnClickListener() { // from class: com.photovideomaker.pictovideditor.videocutermerger.activities.MainActivity.2
             @Override // android.view.View.OnClickListener
             public void onClick(View v) {
@@ -102,7 +103,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    @Override // android.support.v4.app.FragmentActivity, android.app.Activity, android.support.v4.app.ActivityCompat.OnRequestPermissionsResultCallback
+    @Override
+    // android.support.v4.app.FragmentActivity, android.app.Activity, android.support.v4.app.ActivityCompat.OnRequestPermissionsResultCallback
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == 1 && grantResults.length > 0) {
@@ -136,13 +138,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.cutTextView /* 2131755256 */:
             default:
                 return;
+
+
             case R.id.bt_cut /* 2131755254 */:
                 if (Build.VERSION.SDK_INT < 23) {
 
-             startActivity(new Intent(MainActivity.this, GetAllVIdeoActivty.class));
-             return;
-                } else if (Utils.checkPermission(PERMISSION, this) == 0) {
                     startActivity(new Intent(MainActivity.this, GetAllVIdeoActivty.class));
+                    return;
+                } else if (Utils.checkPermission(PERMISSION, this) == 0) {
+                    startActivity(new Intent(MainActivity.this, GetAllVIdeoActivty.class)
+                            .putExtra("type", "cut"));
 
 
                     return;
@@ -150,16 +155,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     requestPermissions(PERMISSION, 1);
                     return;
                 }
+
+
+
+            case R.id.bt_edivi /* 2131755254 */:
+                if (Build.VERSION.SDK_INT < 23) {
+
+                    startActivity(new Intent(MainActivity.this, GetAllVIdeoActivty.class));
+                    return;
+                } else if (Utils.checkPermission(PERMISSION, this) == 0) {
+                    startActivity(new Intent(MainActivity.this, GetAllVIdeoActivty.class)
+                            .putExtra("type", "edit"));
+
+
+                    return;
+                } else {
+                    requestPermissions(PERMISSION, 1);
+                    return;
+                }
+
+
+
+
             case R.id.bt_join /* 2131755257 */:
                 if (Build.VERSION.SDK_INT < 23) {
                     startActivity(new Intent(this, AllJoinVideoe.class));
                     return;
-                } else if (Utils.checkPermission(PERMISSION, this) == 0)
-                {
+                } else if (Utils.checkPermission(PERMISSION, this) == 0) {
                     startActivity(new Intent(this, AllJoinVideoe.class));
                     return;
-                } else
-                {
+                } else {
                     requestPermissions(PERMISSION, 1);
                     return;
 
@@ -231,16 +256,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
-
-
-
-
-
-
-
-
-
-
 
 
 }
